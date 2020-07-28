@@ -14,6 +14,7 @@ import Home from './screens/Home';
 import Login from './screens/Login';
 import Explore from './screens/Explore';
 import Work from './screens/Work';
+import FullScreenImage from './screens/FullScreenImage';
 
 function Logo() {
     const navigation = useNavigation();
@@ -71,6 +72,7 @@ export default function Routes() {
                 <AppStack.Screen name="Login" component={Login}/>
                 <AppStack.Screen name="explore" component={TopTabScreen}/>
                 <AppStack.Screen name="Work" component={Work}/>
+                <AppStack.Screen name="FullScreenImage" component={FullScreenImage}/>
             </AppStack.Navigator>
         </NavigationContainer>
     )

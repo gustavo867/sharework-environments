@@ -1,14 +1,22 @@
 <div align="center">
 <h1>ShareWork Envirnoments</h1>
-<img src="./github/screenshot_1.jpg" height="800"></img>
+<h2>Shared work environments is an application for sharing work environments in order to inspire future companies when building their environment.
+</h2>
+<img src="./Readme/screenshot_home.jpg" height="800"></img>
+<img src="./Readme/screenshot_login.jpg" height="800"></img>
+<img src="./Readme/screenshot_explore.jpg" height="800"></img>
+<img src="./Readme/screenshot_work.jpg" height="800"></img>
+<img src="./Readme/screenshot_modal.jpg" height="800"></img>
+<img src="./Readme/screenshot_image.jpg" height="800"></img>
 </div>
 
 ## 🚀 Technologies
 - React Native
-- React Navigation
 - React Navigation Stack
 - Expo icons
-- Expo
+- Expo Blur
+- Modalize
+- TypeScript
 
 ## 💻 Getting Started
 
@@ -34,10 +42,6 @@ $ yarn ios
 # If you are going to use smartphone 
 $ yarn start or expo start
 ```
-
-## Explore Figure Action
-<img src="./github/screenshot_2.jpg" height="800"></img>
-<img src="./github/screenshot_3.jpg" height="800"></img>
 
 ## 🤔 How to contribute
 

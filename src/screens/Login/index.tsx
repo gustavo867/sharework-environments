@@ -96,6 +96,9 @@ const Login: React.FC = () => {
         setIsSecure((prevState) => !prevState)
     }
 
+    function handleNavigateToExplore() {
+        navigation.navigate('explore');
+    }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -133,7 +136,7 @@ const Login: React.FC = () => {
             </View>
             
 
-            <TouchableOpacity activeOpacity={0.7} style={styles.signUpButton}>
+            <TouchableOpacity onPress={handleNavigateToExplore} activeOpacity={0.7} style={styles.signUpButton}>
                 <Text style={styles.signUpText}>Sign Up</Text>
             </TouchableOpacity>
         </KeyboardAvoidingView>

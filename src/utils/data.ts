@@ -5,6 +5,7 @@ const user = {
   };
   
 
+ export function getCompanys() {
   const content = [
     {
       id: '1',
@@ -151,8 +152,10 @@ const user = {
       image3:
         'https://i2.wp.com/www.portallos.com.br/wp-content/uploads/2017/01/Kojima-Productions-Studio-008.jpg?ssl=1',
     },
-];
+  ];
+  return content
+}
 
   
-  export { user, content };
+  export { user };
   
